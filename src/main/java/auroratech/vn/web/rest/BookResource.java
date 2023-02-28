@@ -23,7 +23,7 @@ import tech.jhipster.web.util.ResponseUtil;
 @RestController
 @RequestMapping("/api")
 @Transactional
-public class BookResource {
+public class    BookResource {
 
     private final Logger log = LoggerFactory.getLogger(BookResource.class);
 
