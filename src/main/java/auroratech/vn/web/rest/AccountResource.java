@@ -7,6 +7,7 @@ import auroratech.vn.service.MailService;
 import auroratech.vn.service.UserService;
 import auroratech.vn.service.dto.AdminUserDTO;
 import auroratech.vn.service.dto.PasswordChangeDTO;
+import auroratech.vn.service.dto.UserDTO;
 import auroratech.vn.web.rest.errors.*;
 import auroratech.vn.web.rest.vm.KeyAndPasswordVM;
 import auroratech.vn.web.rest.vm.ManagedUserVM;

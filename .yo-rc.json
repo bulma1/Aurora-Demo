@@ -21,7 +21,7 @@
     "enableTranslation": true,
     "entitySuffix": "",
     "jhiPrefix": "jhi",
-    "jhipsterVersion": "7.6.0",
+    "jhipsterVersion": "7.1.0",
     "jwtSecretKey": "ZDljYTBkN2RhOGNhNjk1YmFiZjM0MWExNjc0ZmYzYmQ1ZDk0OWZkZGFiYjZmZGVhYjlkOWVjOGY0ZDc1OGZkZjE2YWMwNDNhNjYzMGYwZjA0NGFkNTE1MzM3ZjNiYzE5NTE4YTJmZDFjODIxMGMxZTI0ZTIwMzU4ZmMyYTllMmU=",
     "languages": ["en", "vi"],
     "messageBroker": false,
@@ -35,13 +35,18 @@
     "searchEngine": false,
     "serverPort": "8080",
     "serverSideOptions": [],
-    "serviceDiscoveryType": "no",
+    "serviceDiscoveryType": false,
     "skipCheckLengthOfIdentifier": false,
     "skipCommitHook": true,
     "skipFakeData": false,
     "skipUserManagement": false,
     "testFrameworks": ["cypress"],
     "websocket": false,
-    "withAdminUi": true
+    "withAdminUi": true,
+    "skipClient": true,
+    "skipServer": false,
+    "packageFolder": "auroratech/vn",
+    "lastLiquibaseTimestamp": 1677586259000,
+    "entities": ["Student", "Book"]
   }
 }

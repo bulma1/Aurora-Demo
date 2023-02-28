@@ -1,6 +1,6 @@
 jib {
     from {
-        image = "eclipse-temurin:11-jre-focal"
+        image = "adoptopenjdk:11-jre-hotspot"
     }
     to {
         image = "auroratech:latest"
